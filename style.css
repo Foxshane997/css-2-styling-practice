@@ -90,9 +90,28 @@ p {
 }
 
 footer {
-    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
 }
 
+footer input  {
+    font-family: 'Yusei Magic', sans-serif;
+    margin: 0 auto;
+    display:block;
+    border-color: gold;
+    border-style: solid;
+}
+
+footer label {
+    display: inline-block;
+    color:purple;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: purple;
+    color: white;
+}
 
 /*  override user default on scrool that can make stickies look weird */
 ::-webkit-scrollbar {
